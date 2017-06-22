@@ -1,0 +1,183 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Lora', serif;
+}
+
+#about, #work {
+    height: 550px;
+}
+
+#skills {
+    height: 600px;
+}
+
+#contact {
+    height: 350px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 550px;
+    background: url('../img/header-image.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 72px;
+    color: white;
+    padding: 50px 0 20px 0;
+}
+
+header h2 {
+    width: 1000px;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 80px;
+    color: white;
+    padding: 0;
+    font-style: italic;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 60px 0;
+}
+
+#about h3 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    color: #684436;
+}
+
+#about p {
+    padding: 20px;
+    font-size: 18px;
+    color: #684436;
+}
+
+#about img {
+    padding: 20px;
+}
+
+/****** SKILLS ******/
+
+#skills .full-width {
+    padding: 60px 0;
+}
+
+#skills .third-width {
+    text-align: center;
+}
+
+#skills p {
+    padding: 20px 50px;
+    color: #684436;
+}
+
+#skills h3 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    color: #684436;
+}
+#skills h4 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: #684436;
+}
+
+/****** WORK ******/
+
+#work {
+    background-color: #c3915c;
+}
+ #work .full-width {
+    padding: 50px 0;
+ }
+
+#work h3 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    color: #4a2e2a;
+}
+
+#work .third-width {
+    text-align: center;
+}
+
+/*.work-img {
+    border: 12px solid #4a2e2a;
+}*/
+
+#work h4 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: #4a2e2a;
+}
+
+#work p {
+    padding: 20px 50px;
+    color: #4a2e2a;
+}
+
+/****** FOOTER ******/
+
+#contact .full-width {
+    padding: 50px 0;
+}
+
+#contact h3 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    color: #684436;
+}
+
+#contact h4 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: #684436;
+    font-size: 20px;
+    line-height: 0;
+    font-weight: normal;
+}
+
+#contact .email {
+    text-decoration: none;
+    color: #684436;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+     padding: 40px;
+}
+
+#contact h6 {
+    clear: both;
+    padding-top: 80px;
+    color: #684436;
+}
